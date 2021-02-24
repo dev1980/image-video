@@ -8,6 +8,9 @@
     max-width: 100%;
     margin: 10px;
     display: flex;
+    position: sticky;
+    top: 0;
+    padding-bottom: 50px;
 
 }
 
@@ -44,4 +47,18 @@ input {
 .header-third img {
    position: fixed;
    right: 0;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-right {
+    width: 80%;
+    margin-left: 30px;
+    height: 100vh;
+    border: 1px solid orange;
 }
