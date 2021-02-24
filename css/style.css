@@ -4,3 +4,44 @@
     box-sizing: border-box;
 }
 
+.header {
+    max-width: 100%;
+    margin: 10px;
+    display: flex;
+
+}
+
+ .header-first {
+  display: flex;
+  justify-content: space-between;
+}
+
+.burger img {
+    padding-right: 20px;
+    max-width: 60px;
+    height: auto;
+}
+
+.youtube-logo img {
+    max-width: 50px;
+    height: auto;
+}
+
+.header-second {
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+input {
+    border:1px solid rgba(95, 94, 93, 0.863);;
+    width: 300px;
+    padding: 10px;
+    font-size: 12px;
+    margin-right:3px;
+}
+
+.header-third img {
+   position: fixed;
+   right: 0;
+}
